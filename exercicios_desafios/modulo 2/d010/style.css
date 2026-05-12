@@ -1,0 +1,98 @@
+
+body{
+    background-image: linear-gradient(to right, lightgreen, rgb(126, 247, 126));
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+header{
+    background-color: green;
+    color: white;
+    padding: 10px;
+
+}
+header > h1, p{
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+
+}
+
+nav > a{
+
+    text-decoration: none;
+    margin-right: 5px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: rgb(27, 174, 27);
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+
+}
+main > h1{
+    color: green;
+    padding: 5px;
+}
+
+main > h2{
+    color: green;
+    box-shadow: inset 13px 2px 15px 3px lightgreen;
+    padding: 5px;
+}
+
+p > a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#p_extra{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+#div_extra{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+footer{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+
+/* Para todos os paragrafos justificados */
+p{
+    text-align: justify;
+}
+
+/* Para Centralizar Paragrafos do Header e Footer*/
+.texto_centralizado{
+    text-align: center;
+}
+
+#p_footer{
+    margin: 0px;
+}
+

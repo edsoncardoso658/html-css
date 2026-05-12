@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: lightgray;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
+        }
+        
+        nav > a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            color: red;
+        }
+
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: gray;
+            margin: 10px;
+        }
+
+        article > aside{
+            background-color: lightgray;
+        
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        aside > p{
+            margin: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Servicos</a>
+            <a href="#">Noticias</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contactos</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre Cabo Verde</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laborum est harum veritatis minima adipisci eos. Itaque temporibus dolorum porro expedita sunt vero sit nisi illum provident eos, modi qui?</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Edson Cardoso</p>
+    </footer>
+    
+</body>
+</html>
