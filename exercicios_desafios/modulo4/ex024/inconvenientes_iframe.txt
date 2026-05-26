@@ -1,0 +1,11 @@
+
+
+Problemas de Segurança
+Nao use muitos iframes principalmente para conteudo de suma importancia
+dificuldade em mecanismo de busca ler o cnteudo dentro do iframes
+
+Se o site do terceiro estiver sob ataque pode ter risco para o seu site tambem
+Assistir a aula de Incovenientes do iframe...
+
+
+
