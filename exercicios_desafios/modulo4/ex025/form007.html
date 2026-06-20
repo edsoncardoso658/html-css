@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulario com Select</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="ibairro">Bairro da Praia:</label>
+        <select name="bairro" id="ibairro">
+            <option value="" selected>---Escolha um Bairro---</option>
+            <optgroup label="Praia Norte">
+                <option value="Var">Varzea</option>
+                <option value="Faz">Fazenda</option>
+                <option value="Acha">Achadinha</option>
+            </optgroup>
+
+            <optgroup label="Praia Sul">
+                <option value="Palm">Palmarejo</option>
+                <option value="Cid">Cidadela</option>
+                <option value="Cai">Caiada</option>
+            </optgroup> 
+        </select>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="listaprof">
+
+            <p>
+                <datalist id="listaprof">
+                    <option >Admin</option>
+                    <option >Engenheiro</option>
+                    <option >Contabilista</option>
+                </datalist>
+            </p>
+            <!--O datalist pode aceitar valores que nao estao nas options-->
+
+
+        </p>
+
+         <p>
+            <label for="imsg">Mensagem</label>
+        </p>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
