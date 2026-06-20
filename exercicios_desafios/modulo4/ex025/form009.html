@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Output Formulario</title>
+</head>
+<body>
+    <h1>Teste de Output  no form</h1>
+
+    <form action="" method="post">
+        <p>
+            <label for="inivel">Nivel de Satisfação</label>
+            <input type="range" name="nivel" id="inivel" value="5" min="0" max="5" oninput="resultnivel.innerHTML = Number(inivel.value)">
+
+            <output id="resultnivel">5</output>
+        </p>
+    </form>
+    
+</body>
+</html>
