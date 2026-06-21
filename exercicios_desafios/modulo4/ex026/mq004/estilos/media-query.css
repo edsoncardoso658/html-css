@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* Diferentes tipos e caracteristicas de Media */
+
+
+/* ***Pesquisa na W3C 06_2026 - Typical Device Breakpoints***
+
+// Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+
+// Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+// Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+// Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+// Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...}
+
+*/
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+
+    }
+
+    img#phone{display: none;}
+
+    img#tablet{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#tablet{display: none;}
+
+    img#pc{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#pc{
+        display: none;
+    }
+
+    img#tv{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+@media only print {
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+  
+
+    img#phone{display: none;}
+
+    img#print{
+        display: block;
+        margin: auto;
+    }
+
+      main ::after{
+        content: "Esta Impressao foi feito no ambito do Curso em Video";
+        text-decoration: underline;
+    
+    }
+
+
+}
