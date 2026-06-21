@@ -68,7 +68,7 @@ a#menu:hover{
 }
 
 main{
-    width: 450px;
+    width: 90vw;
     padding: 10px;
     border-radius: 5px;
     margin: auto;
@@ -80,11 +80,11 @@ main{
 main h2{
     font-size: 1.2Em;
     text-align: center;
-    padding: 10px;
+  
 }
 
 main p{
     text-align: justify;
     line-height: 1.5Em;
-    padding: 10px;
+  
 }
