@@ -84,6 +84,7 @@
     main h1{
         text-shadow: none;
         color: black;
+        font-family: 'Courier New', Courier, monospace;
     }
   
 
