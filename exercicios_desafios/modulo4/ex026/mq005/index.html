@@ -11,7 +11,7 @@
     <header>
         <h1>Meu Site</h1>
 
-        <a id="menu" href="#nav-menu"><img src="imagens/menu_50px.png" alt="Menu Responsivo"></a>
+        <a id="menu" onclick="clickMenu()"><img id="menu-ico" src="imagens/menu_50px.png" alt="Menu Responsivo"></a>
 
 
         <nav id="nav-menu">
@@ -34,6 +34,26 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa numquam accusantium alias, provident aut dolores esse exercitationem nemo quod ducimus iste ipsum saepe sequi hic illum aspernatur fuga in.</p>
 
     </main>
-    
+    <script>
+
+        const menu = document.getElementById("menu");
+        const opcoes = document.getElementById("nav-menu");
+        let contar = 0;
+
+        function clickMenu(){
+            contar = contar +1;
+
+            if (opcoes.style.display === "block") {
+                opcoes.style.display = "none";
+            }
+
+            else{
+                opcoes.style.display = "block";
+            }
+
+            
+
+        }
+    </script>
 </body>
 </html>

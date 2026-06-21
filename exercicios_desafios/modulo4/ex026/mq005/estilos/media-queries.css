@@ -8,6 +8,13 @@ header nav{
     
 }
 
+nav a{
+    display: inline-block;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 a#menu{
     display: none
 }

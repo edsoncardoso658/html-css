@@ -10,6 +10,11 @@
     font-size: 1Em;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height 0px
+}
+
 html{
     height: 100vh;
 }
@@ -28,24 +33,37 @@ header h1{
     font-size: 1.5Em;
 }
 
-header nav{
-    height: 20px;
-    padding: 10px;
+nav{
     display: none;
-    
 }
+
+
 nav a{
     text-decoration: none;
     padding: 5px;
     background-color: rgb(101, 98, 98);
     color: white;
-    border-radius: 5px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.488);
+    display: block;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid white ;
+    
 }
 
 a#menu{
     display: block;
     text-align: center;
+}
+
+img#menu-ico{
+    height: 30px;
+    width: 30px;
+}
+
+a#menu:hover{
+    background-color: white;
+    cursor: pointer;
 }
 
 main{
@@ -54,6 +72,7 @@ main{
     border-radius: 5px;
     margin: auto;
     background-color: white;
+    margin-top: 10px;
 
 }
 
