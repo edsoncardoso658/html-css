@@ -3,20 +3,35 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    
+
 }
 
-header{
+header, section.normal{
     background-color: white;
-    padding: 10px;
+    padding: 20px;
+}
+p, h1, h2{
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
-article.flex{
+section.flex-content{
     background-color: lightgray;
-    padding: 10px;
+    padding: 20px;
+    
 }
 
-article.normal{
-    background-color: white;
-    padding: 10px;
+section > article{
+    border: 2px dashed green;
+
 }
+
