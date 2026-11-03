@@ -3,4 +3,5 @@
 div.container{
     display: grid;
     grid-template: 2fr 1fr 8fr 1fr / 1fr 2fr 1fr;
+    border: 2px dashed blue;
 }
