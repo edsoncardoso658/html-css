@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+div.container{
+    display: grid;
+    grid-template: 2fr 1fr 8fr 1fr / 1fr 2fr 1fr;
+}
