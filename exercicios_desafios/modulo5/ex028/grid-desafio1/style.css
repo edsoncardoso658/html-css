@@ -3,5 +3,41 @@
 div.container{
     display: grid;
     grid-template: 2fr 1fr 8fr 1fr / 1fr 2fr 1fr;
+    /*grid-template: 50px 25px 400px 25px / 120px 240px 120px;*/
     border: 2px dashed blue;
+}
+
+div.topo{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    background-color: green;
+    text-align: center;
+}
+
+div.menu{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    border: 2px dashed green;
+    text-align: center;
+}
+
+div.principal{
+    grid-row: 3/4;
+    grid-column: 1/-2;
+    background-color: blue;
+    text-align: center;
+}
+
+div.secundario{
+    grid-row: 3/4;
+    grid-column: -2/-1;
+    background-color: gray;
+    text-align: center;
+}
+
+div.rodape{
+    grid-row: -2/-1;
+    grid-column: 1/-1;
+    background-color: green;
+    text-align: center;
 }
